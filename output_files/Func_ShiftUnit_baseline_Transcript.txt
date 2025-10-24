@@ -1,0 +1,269 @@
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity SLL64
+# -- Compiling architecture simpleShift of SLL64
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity SRL64
+# -- Compiling architecture simpleShift of SRL64
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity SRA64
+# -- Compiling architecture simpleShift of SRA64
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture structural of ShiftUnit
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity SLL64
+# -- Loading entity SRL64
+# -- Loading entity SRA64
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity ShiftUnit
+# -- Compiling configuration twoChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration fourChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration eightChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBShiftUnit
+# -- Compiling architecture TB of TBShiftUnit
+# vsim -t 100ps -gui work.baselineConfig 
+# Start time: 15:02:10 on Apr 05,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.baselineconfig
+# Loading work.tbshiftunit(tb)
+# Loading ieee.std_logic_signed(body)
+# Loading work.shiftunit(structural)
+# Loading work.sll64(simpleshift)
+# Loading work.srl64(simpleshift)
+# Loading work.sra64(simpleshift)
+# 
+# Restart
+# restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# 
+# Run the simulation
+# run 500 ns
+# ** Note: Using TestVectors from file TestVectors/ShiftUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 1: , Propagation Delay Status = 0 ps
+#    Time: 36 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 2: , Propagation Delay Status = 0 ps
+#    Time: 72 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 3: , Propagation Delay Status = 0 ps
+#    Time: 108 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 4: , Propagation Delay Status = 0 ps
+#    Time: 144 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 5: , Propagation Delay Status = 0 ps
+#    Time: 180 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 6: , Propagation Delay Status = 0 ps
+#    Time: 216 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 7: , Propagation Delay Status = 0 ps
+#    Time: 252 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 8: , Propagation Delay Status = 0 ps
+#    Time: 288 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 9: , Propagation Delay Status = 0 ps
+#    Time: 324 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 10: , Propagation Delay Status = 0 ps
+#    Time: 360 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbshiftunit/DUT/inst_SLL64
+# ** Note: Measurement 11: , Propagation Delay Status = 0 ps
+#    Time: 396 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Simulation Completed
+#    Time: 396 ns  Iteration: 0  Instance: /tbshiftunit
+# 
+# Turn off the transcription
+# transcript off

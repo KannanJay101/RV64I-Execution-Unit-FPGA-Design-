@@ -1,0 +1,133 @@
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ArithUnit
+# -- Compiling architecture structure of ArithUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBArithUnit
+# -- Loading architecture TB of TBArithUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ArithUnit
+# -- Compiling configuration improvedZeroConfig
+# -- Loading entity TBArithUnit
+# -- Loading architecture TB of TBArithUnit
+# -- Loading entity ArithUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBArithUnit
+# -- Loading architecture TB of TBArithUnit
+# -- Loading entity ArithUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBArithUnit
+# -- Compiling architecture TB of TBArithUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/ArithUnit_RippleOp.sdo" work.structureconfig 
+# Start time: 00:44:05 on Apr 06,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.structureconfig
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading work.tbarithunit(tb)
+# Loading work.arithunit(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/ArithUnit_RippleOp.sdo
+# Loading timing data from ModelSim/ArithUnit_RippleOp.sdo
+# ** Warning: Design size of 28381 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbarithunit File: TBArithUnit.vhd
+# 
+# Restart
+# restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ModelSim/ArithUnit_RippleOp.sdo
+# Loading timing data from ModelSim/ArithUnit_RippleOp.sdo
+# ** Warning: Design size of 14395 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbarithunit File: TBArithUnit.vhd
+# 
+# Run the simulation
+# run 100 ns
+# run -all
+# ** Note: Using TestVectors from file TestVectors/ArithUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 1
+#    Time: 40600 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 1: , Propagation Delay = 24600 ps
+#    Time: 40600 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 2
+#    Time: 81200 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 2: , Propagation Delay = 24600 ps
+#    Time: 81200 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 3
+#    Time: 114700 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBZero' at vector 3
+#    Time: 114700 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBAltBu' at vector 3
+#    Time: 114700 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 3: , Propagation Delay = 17500 ps
+#    Time: 114700 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 4
+#    Time: 151100 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBZero' at vector 4
+#    Time: 151100 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 4: , Propagation Delay = 20400 ps
+#    Time: 151100 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 5
+#    Time: 187500 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBZero' at vector 5
+#    Time: 187500 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 5: , Propagation Delay = 20400 ps
+#    Time: 187500 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 6
+#    Time: 227400 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBZero' at vector 6
+#    Time: 227400 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'AltB' at vector 6
+#    Time: 227400 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBAltBu' at vector 6
+#    Time: 227400 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 6: , Propagation Delay = 23900 ps
+#    Time: 227400 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'Y' at vector 7
+#    Time: 260900 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'TBZero' at vector 7
+#    Time: 260900 ps  Iteration: 0  Instance: /tbarithunit
+# ** Error: Test failed for 'AltB' at vector 7
+#    Time: 260900 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Measurement 7: , Propagation Delay = 17500 ps
+#    Time: 260900 ps  Iteration: 0  Instance: /tbarithunit
+# ** Note: Simulation Completed
+#    Time: 260900 ps  Iteration: 0  Instance: /tbarithunit
+# 
+# Turn off the transcription
+# transcript off

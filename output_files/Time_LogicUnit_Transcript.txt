@@ -1,0 +1,119 @@
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity LogicUnit
+# -- Compiling architecture structure of LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity LogicUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading entity LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBLogicUnit
+# -- Compiling architecture TB of TBLogicUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/LogicUnit.sdo" work.structureconfig 
+# Start time: 11:24:39 on Apr 05,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.structureconfig
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading work.tblogicunit(tb)
+# Loading work.logicunit(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/LogicUnit.sdo
+# Loading timing data from ModelSim/LogicUnit.sdo
+# ** Warning: Design size of 17636 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tblogicunit File: TBLogicUnit.vhd
+# 
+# Restart
+# restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ModelSim/LogicUnit.sdo
+# Loading timing data from ModelSim/LogicUnit.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tblogicunit File: TBLogicUnit.vhd
+# 
+# Run the simulation
+# run 100 ns
+# run -all
+# ** Note: Using TestVectors from file TestVectors/LogicUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 1
+#    Time: 32200 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 1: , Propagation Delay Status = 16200 ps
+#    Time: 32200 ps  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 2
+#    Time: 64100 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 2: , Propagation Delay Status = 15900 ps
+#    Time: 64100 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 3: , Propagation Delay Status = 16200 ps
+#    Time: 96300 ps  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 4
+#    Time: 128200 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 4: , Propagation Delay Status = 15900 ps
+#    Time: 128200 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 5: , Propagation Delay Status = 15100 ps
+#    Time: 159300 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 6: , Propagation Delay Status = 15100 ps
+#    Time: 190400 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 7: , Propagation Delay Status = 15300 ps
+#    Time: 221700 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 8: , Propagation Delay Status = 15600 ps
+#    Time: 253300 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 9: , Propagation Delay Status = 15300 ps
+#    Time: 284600 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 10: , Propagation Delay Status = 15600 ps
+#    Time: 316200 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 11: , Propagation Delay Status = 15300 ps
+#    Time: 347500 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 12: , Propagation Delay Status = 15600 ps
+#    Time: 379100 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 13: , Propagation Delay Status = 15400 ps
+#    Time: 410500 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 14: , Propagation Delay Status = 15400 ps
+#    Time: 441900 ps  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 15
+#    Time: 474100 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 15: , Propagation Delay Status = 16200 ps
+#    Time: 474100 ps  Iteration: 0  Instance: /tblogicunit
+# ** Note: Simulation Completed
+#    Time: 474100 ps  Iteration: 0  Instance: /tblogicunit
+# 
+# Turn off the transcription
+# transcript off

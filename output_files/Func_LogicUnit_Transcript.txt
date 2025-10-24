@@ -1,0 +1,205 @@
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity LogicUnit
+# -- Compiling architecture structural of LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# ** Error: (vcom-11) Could not find work.tblogicunit.
+# ** Note: ../SourceCode/ConfigLogicUnit.vhd(4): VHDL Compiler exiting
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./functional_verification_LogicUnit.do line 9
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -work work -2008 -explicit -stats=none ../SourceCode/ConfigLogicUnit.vhd"
+# Errors: 0, Warnings: 0
+# Compile of TBExecUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Adder.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ArithUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ConfigExecUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ExecUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of LogicUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of ShiftUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of SLL64.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of SRA64.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of SRL64.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of TBArithUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of TBLogicUnit.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of TBShiftUnit.vhd was successful.
+do functional_verification_LogicUnit.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity LogicUnit
+# -- Compiling architecture structural of LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity LogicUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading entity LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBLogicUnit
+# -- Compiling architecture TB of TBLogicUnit
+# vsim -t 100ps -gui work.baselineConfig 
+# Start time: 10:24:35 on Apr 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.baselineconfig
+# Loading work.tblogicunit(tb)
+# Loading work.logicunit(structural)
+# ** Error: Cannot open macro file: wave_LogicUnit.do
+# Error in macro ./functional_verification_LogicUnit.do line 20
+# Cannot open macro file: wave_LogicUnit.do
+#     while executing
+# "do wave_LogicUnit.do"
+# Compile of TBExecUnit.vhd was successful.
+# Compile of Adder.vhd was successful.
+# Compile of ArithUnit.vhd was successful.
+# Compile of ConfigExecUnit.vhd was successful.
+# Compile of ExecUnit.vhd was successful.
+# Compile of LogicUnit.vhd was successful.
+# Compile of ShiftUnit.vhd was successful.
+# Compile of SLL64.vhd was successful.
+# Compile of SRA64.vhd was successful.
+# Compile of SRL64.vhd was successful.
+# Compile of TBArithUnit.vhd was successful.
+# Compile of TBLogicUnit.vhd was successful.
+# Compile of TBShiftUnit.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+do functional_verification_LogicUnit.do
+# End time: 10:25:05 on Apr 04,2025, Elapsed time: 0:00:30
+# Errors: 1, Warnings: 7
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity LogicUnit
+# -- Compiling architecture structural of LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity LogicUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBLogicUnit
+# -- Loading architecture TB of TBLogicUnit
+# -- Loading entity LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBLogicUnit
+# -- Compiling architecture TB of TBLogicUnit
+# vsim -t 100ps -gui work.baselineConfig 
+# Start time: 10:25:05 on Apr 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.baselineconfig
+# Loading work.tblogicunit(tb)
+# Loading work.logicunit(structural)
+# 
+# Restart
+# restart
+# 
+# Run the simulation
+# run 500 ns
+# ** Note: Using TestVectors from file TestVectors/LogicUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 1
+#    Time: 16 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 1: , Propagation Delay Status = 0 ps
+#    Time: 16 ns  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 2
+#    Time: 32 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 2: , Propagation Delay Status = 0 ps
+#    Time: 32 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 3: , Propagation Delay Status = 0 ps
+#    Time: 48 ns  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 4
+#    Time: 64 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 4: , Propagation Delay Status = 0 ps
+#    Time: 64 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 5: , Propagation Delay Status = 0 ps
+#    Time: 80 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 6: , Propagation Delay Status = 0 ps
+#    Time: 96 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 7: , Propagation Delay Status = 0 ps
+#    Time: 112 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 8: , Propagation Delay Status = 0 ps
+#    Time: 128 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 9: , Propagation Delay Status = 0 ps
+#    Time: 144 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 10: , Propagation Delay Status = 0 ps
+#    Time: 160 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 11: , Propagation Delay Status = 0 ps
+#    Time: 176 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 12: , Propagation Delay Status = 0 ps
+#    Time: 192 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 13: , Propagation Delay Status = 0 ps
+#    Time: 208 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 14: , Propagation Delay Status = 0 ps
+#    Time: 224 ns  Iteration: 0  Instance: /tblogicunit
+# ** Error: Test failed for 'Y' at vector 15
+#    Time: 240 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Measurement 15: , Propagation Delay Status = 0 ps
+#    Time: 240 ns  Iteration: 0  Instance: /tblogicunit
+# ** Note: Simulation Completed
+#    Time: 240 ns  Iteration: 0  Instance: /tblogicunit
+# 
+# Turn off the transcription
+# transcript off

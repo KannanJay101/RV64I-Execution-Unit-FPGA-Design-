@@ -1,0 +1,1605 @@
+# Errors: 1, Warnings: 3
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ArithUnit
+# -- Compiling architecture improvedZero of ArithUnit
+# -- Loading entity Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture twoChannelMUX of ShiftUnit
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity SLL64
+# -- Loading entity SRL64
+# -- Loading entity SRA64
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity LogicUnit
+# -- Compiling architecture structural of LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ExecUnit
+# -- Compiling architecture structural of ExecUnit
+# -- Loading entity ArithUnit
+# -- Loading entity ShiftUnit
+# -- Loading entity LogicUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity ExecUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading entity ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBExecUnit
+# -- Compiling architecture TB of TBExecUnit
+# vsim -t 100ps -gui work.baselineConfig 
+# Start time: 22:57:13 on Apr 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.baselineconfig
+# Loading work.tbexecunit(tb)
+# Loading work.execunit(structural)
+# Loading work.arithunit(improvedzero)
+# Loading work.adder(ripple)
+# Loading ieee.std_logic_signed(body)
+# Loading work.shiftunit(twochannelmux)
+# Loading work.sll64(simpleshift)
+# Loading work.srl64(simpleshift)
+# Loading work.sra64(simpleshift)
+# Loading work.logicunit(structural)
+# 
+# Restart
+# restart
+# 
+# Run the simulation
+# run 500 ns
+# ** Note: Using TestVectors from file TestVectors/ExecUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 35  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 36  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 37  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 38  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 39  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 40  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 41  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 42  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 43  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 44  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 45  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 46  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 47  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 48  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 49  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 50  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 51  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 52  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 53  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 54  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 55  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 56  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 57  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 58  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 59  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 60  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 61  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 62  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 63  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 64  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 65  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 66  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 68  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 68  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 68  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 35  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 36  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 37  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 38  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 39  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 40  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 41  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 42  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 43  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 44  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 45  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 46  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 47  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 48  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 49  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 50  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 51  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 52  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 53  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 54  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 55  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 56  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 57  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 58  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 59  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 60  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 61  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 62  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 63  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 1
+#    Time: 36 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 1
+#    Time: 36 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 1: , Propagation Delay Status = 0 ps
+#    Time: 36 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 37 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 35  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 36  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 37  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 38  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 39  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 40  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 41  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 42  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 43  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 44  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 45  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 46  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 47  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 48  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 49  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 50  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 51  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 52  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 53  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 54  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 55  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 56  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 57  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 58  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 59  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 60  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 61  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 62  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37 ns  Iteration: 63  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 2
+#    Time: 72 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 2
+#    Time: 72 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 2: , Propagation Delay Status = 0 ps
+#    Time: 72 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 73 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 3
+#    Time: 108 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 3
+#    Time: 108 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 3
+#    Time: 108 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 3: , Propagation Delay Status = 0 ps
+#    Time: 108 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 108 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 109 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 109 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 109 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 109 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 4
+#    Time: 144 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 4
+#    Time: 144 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 4: , Propagation Delay Status = 0 ps
+#    Time: 144 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 144 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 145 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 5
+#    Time: 180 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 5
+#    Time: 180 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 5: , Propagation Delay Status = 0 ps
+#    Time: 180 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 181 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 181 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 6
+#    Time: 216 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 6
+#    Time: 216 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 6: , Propagation Delay Status = 0 ps
+#    Time: 216 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 216 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 217 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 217 ns  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 7
+#    Time: 252 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 7
+#    Time: 252 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 7: , Propagation Delay Status = 0 ps
+#    Time: 252 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 252 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 253 ns  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 8
+#    Time: 288 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 8
+#    Time: 288 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 8
+#    Time: 288 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 8: , Propagation Delay Status = 0 ps
+#    Time: 288 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 288 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 289 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 12  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 13  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 14  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 15  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 16  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 17  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 18  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 19  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 20  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 21  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 22  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 23  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 24  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 25  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 26  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 27  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 28  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 29  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 30  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 31  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 32  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 33  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 34  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 35  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 36  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 37  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 38  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 39  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 40  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 41  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 42  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 43  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 44  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 45  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 46  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 47  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 48  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 49  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 50  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 51  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 52  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 53  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 54  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 55  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 56  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 57  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 58  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 59  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 60  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 61  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 62  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 63  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 64  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 289 ns  Iteration: 65  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Note: Measurement 9: , Propagation Delay Status = 0 ps
+#    Time: 324 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 324 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'Y' at vector 10
+#    Time: 360 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 10
+#    Time: 360 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 10
+#    Time: 360 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 10: , Propagation Delay Status = 0 ps
+#    Time: 360 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 361 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'TBZero' at vector 11
+#    Time: 396 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 11
+#    Time: 396 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 11: , Propagation Delay Status = 0 ps
+#    Time: 396 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 396 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 397 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 397 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 397 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 397 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'TBZero' at vector 12
+#    Time: 432 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 12
+#    Time: 432 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 12
+#    Time: 432 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 12: , Propagation Delay Status = 0 ps
+#    Time: 432 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 432 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 433 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 433 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 433 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 433 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Error: Test failed for 'TBZero' at vector 13
+#    Time: 468 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 13
+#    Time: 468 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 13: , Propagation Delay Status = 0 ps
+#    Time: 468 ns  Iteration: 0  Instance: /tbexecunit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 1  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 2  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 3  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 4  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 468 ns  Iteration: 5  Instance: /tbexecunit/DUT
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 469 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SLL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 469 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRL64
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 469 ns  Iteration: 1  Instance: /tbexecunit/DUT/inst_ShiftUnit/inst_SRA64
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 3  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 4  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 5  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 6  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 7  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 8  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 9  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 10  Instance: /tbexecunit/DUT/inst_ArithUnit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 469 ns  Iteration: 11  Instance: /tbexecunit/DUT/inst_ArithUnit
+# 
+# Turn off the transcription
+# transcript off

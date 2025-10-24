@@ -1,0 +1,117 @@
+# End time: 01:01:50 on Apr 06,2025, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ShiftUnit
+# -- Compiling architecture structure of ShiftUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ShiftUnit
+# -- Compiling configuration twoChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration fourChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration eightChannelMUXConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBShiftUnit
+# -- Loading architecture TB of TBShiftUnit
+# -- Loading entity ShiftUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBShiftUnit
+# -- Compiling architecture TB of TBShiftUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/ShiftUnit_EightChannelMUX.sdo" work.structureconfig 
+# Start time: 01:01:50 on Apr 06,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.structureconfig
+# Loading work.tbshiftunit(tb)
+# Loading work.shiftunit(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/ShiftUnit_EightChannelMUX.sdo
+# Loading timing data from ModelSim/ShiftUnit_EightChannelMUX.sdo
+# ** Warning: Design size of 156496 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit File: TBShiftUnit.vhd
+# 
+# Restart
+# restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ModelSim/ShiftUnit_EightChannelMUX.sdo
+# Loading timing data from ModelSim/ShiftUnit_EightChannelMUX.sdo
+# ** Warning: Design size of 79068 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit File: TBShiftUnit.vhd
+# 
+# Run the simulation
+# run 100 ns
+# run -all
+# ** Note: Using TestVectors from file TestVectors/ShiftUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 1: , Propagation Delay Status = 19900 ps
+#    Time: 55900 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 2: , Propagation Delay Status = 20400 ps
+#    Time: 112300 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 3: , Propagation Delay Status = 20800 ps
+#    Time: 169100 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 4: , Propagation Delay Status = 20100 ps
+#    Time: 225200 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 5: , Propagation Delay Status = 19200 ps
+#    Time: 280400 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 6: , Propagation Delay Status = 20700 ps
+#    Time: 337100 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 7: , Propagation Delay Status = 21600 ps
+#    Time: 394700 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 8: , Propagation Delay Status = 21600 ps
+#    Time: 452300 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 9: , Propagation Delay Status = 21100 ps
+#    Time: 509400 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 10: , Propagation Delay Status = 21600 ps
+#    Time: 567 ns  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Measurement 11: , Propagation Delay Status = 21300 ps
+#    Time: 624300 ps  Iteration: 0  Instance: /tbshiftunit
+# ** Note: Simulation Completed
+#    Time: 624300 ps  Iteration: 0  Instance: /tbshiftunit
+# 
+# Turn off the transcription
+# transcript off

@@ -1,0 +1,322 @@
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ExecUnit
+# -- Compiling architecture structure of ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ExecUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading entity ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBExecUnit
+# -- Compiling architecture TB of TBExecUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/ExecUnit_Design4.sdo" work.baselineconfig 
+# Start time: 11:58:40 on Apr 06,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.baselineconfig
+# Loading work.tbexecunit(tb)
+# ** Error: (vsim-13) Recompile work.execunit(structural) because work.execunit has changed.
+# Load interrupted
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./timing_verification_ExecUnit_Design4.do PAUSED at line 13
+do timing_verification_ExecUnit_Design4.do
+# End time: 11:58:59 on Apr 06,2025, Elapsed time: 0:00:19
+# Errors: 1, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ExecUnit
+# -- Compiling architecture structure of ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ExecUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading entity ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBExecUnit
+# -- Compiling architecture TB of TBExecUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/ExecUnit_Design4.sdo" work.structuralconfig 
+# Start time: 11:59:00 on Apr 06,2025
+# ** Error: (vsim-3170) Could not find 'structuralconfig'.
+#         Searched libraries:
+#             C:/Users/Omar_/OneDrive/Documents/ENSC350/FP_TEST/simulation/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./timing_verification_ExecUnit_Design4.do PAUSED at line 13
+do timing_verification_ExecUnit_Design4.do
+# End time: 11:59:10 on Apr 06,2025, Elapsed time: 0:00:10
+# Errors: 1, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity ExecUnit
+# -- Compiling architecture structure of ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling configuration baselineConfig
+# -- Loading package NUMERIC_STD
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity ExecUnit
+# -- Compiling configuration structureConfig
+# -- Loading entity TBExecUnit
+# -- Loading architecture TB of TBExecUnit
+# -- Loading entity ExecUnit
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBExecUnit
+# -- Compiling architecture TB of TBExecUnit
+# vsim -t 100ps -gui -sdftyp "/DUT=ModelSim/ExecUnit_Design4.sdo" work.structureconfig 
+# Start time: 11:59:10 on Apr 06,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.structureconfig
+# Loading work.tbexecunit(tb)
+# Loading work.execunit(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ModelSim/ExecUnit_Design4.sdo
+# Loading timing data from ModelSim/ExecUnit_Design4.sdo
+# ** Warning: Design size of 181398 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit File: TBExecUnit.vhd
+# 
+# Restart
+# restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ModelSim/ExecUnit_Design4.sdo
+# Loading timing data from ModelSim/ExecUnit_Design4.sdo
+# ** Warning: Design size of 91633 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit File: TBExecUnit.vhd
+# 
+# Run the simulation
+# run 100 ns
+# run -all
+# ** Note: Using TestVectors from file TestVectors/ExecUnitTestVector.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 1
+#    Time: 44 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 1
+#    Time: 44 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 1
+#    Time: 44 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 1
+#    Time: 44 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 1: , Propagation Delay Status = 8000 ps
+#    Time: 44 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 2
+#    Time: 119300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 2
+#    Time: 119300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 2: , Propagation Delay Status = 39300 ps
+#    Time: 119300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 3
+#    Time: 174200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 3
+#    Time: 174200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 3
+#    Time: 174200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 3: , Propagation Delay Status = 18900 ps
+#    Time: 174200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 4
+#    Time: 229400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 4
+#    Time: 229400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 4: , Propagation Delay Status = 19200 ps
+#    Time: 229400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 5
+#    Time: 299300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 5
+#    Time: 299300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 5: , Propagation Delay Status = 33900 ps
+#    Time: 299300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 6
+#    Time: 355900 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 6
+#    Time: 355900 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 6: , Propagation Delay Status = 20600 ps
+#    Time: 355900 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 7
+#    Time: 408700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 7
+#    Time: 408700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 7: , Propagation Delay Status = 16800 ps
+#    Time: 408700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 8
+#    Time: 462600 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 8
+#    Time: 462600 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 8
+#    Time: 462600 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 8: , Propagation Delay Status = 17900 ps
+#    Time: 462600 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 9
+#    Time: 516500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 9
+#    Time: 516500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 9: , Propagation Delay Status = 17900 ps
+#    Time: 516500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'Y' at vector 10
+#    Time: 569300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 10
+#    Time: 569300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 10
+#    Time: 569300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 10: , Propagation Delay Status = 16800 ps
+#    Time: 569300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 11
+#    Time: 622 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 11
+#    Time: 622 ns  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 11: , Propagation Delay Status = 16700 ps
+#    Time: 622 ns  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 12
+#    Time: 675700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 12
+#    Time: 675700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 12
+#    Time: 675700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 12: , Propagation Delay Status = 17700 ps
+#    Time: 675700 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 13
+#    Time: 728400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 13
+#    Time: 728400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 13: , Propagation Delay Status = 16700 ps
+#    Time: 728400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 14
+#    Time: 782300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 14: , Propagation Delay Status = 17900 ps
+#    Time: 782300 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 15
+#    Time: 836200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 15: , Propagation Delay Status = 17900 ps
+#    Time: 836200 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 16
+#    Time: 888800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 16
+#    Time: 888800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 16: , Propagation Delay Status = 16600 ps
+#    Time: 888800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 17
+#    Time: 941500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 17
+#    Time: 941500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 17
+#    Time: 941500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 17: , Propagation Delay Status = 16700 ps
+#    Time: 941500 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 18
+#    Time: 995400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'AltB' at vector 18
+#    Time: 995400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 18: , Propagation Delay Status = 17900 ps
+#    Time: 995400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 19
+#    Time: 1052800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBAltBu' at vector 19
+#    Time: 1052800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 19: , Propagation Delay Status = 21400 ps
+#    Time: 1052800 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 20
+#    Time: 1111100 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 20: , Propagation Delay Status = 22300 ps
+#    Time: 1111100 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 21
+#    Time: 1168400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 21: , Propagation Delay Status = 21300 ps
+#    Time: 1168400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Error: Test failed for 'TBZero' at vector 22
+#    Time: 1227400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Measurement 22: , Propagation Delay Status = 23000 ps
+#    Time: 1227400 ps  Iteration: 0  Instance: /tbexecunit
+# ** Note: Simulation Completed
+#    Time: 1227400 ps  Iteration: 0  Instance: /tbexecunit
+# 
+# Turn off the transcription
+# transcript off

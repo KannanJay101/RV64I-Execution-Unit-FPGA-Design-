@@ -1,0 +1,22 @@
+Fitter Status : Failed - Sat Apr 05 14:45:52 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FP1_Kannan
+Top-level Entity Name : ShiftUnit
+Family : Arria II GX
+Device : EP2AGX45DF25C6
+Timing Models : Final
+Logic utilization : 2 %
+    Combinational ALUTs : 514 / 36,100 ( 1 % )
+    Memory ALUTs : 0 / 18,050 ( 0 % )
+    Dedicated logic registers : 0 / 36,100 ( 0 % )
+Total registers : 0
+Total pins : 259 / 292 ( 89 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 2,939,904 ( 0 % )
+DSP block 18-bit elements : 0 / 232 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+Total DLLs : 0 / 2 ( 0 % )
